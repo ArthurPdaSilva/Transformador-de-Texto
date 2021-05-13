@@ -15,7 +15,7 @@ function transform(x = 0) {
             break;
         
         case 'i':
-            textoF.value = textoF.value.split(' ').reverse().join(' ');
+            textoF.value = textoF.value.split('').reverse().join('');
             break;
        
         default:

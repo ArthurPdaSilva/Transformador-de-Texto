@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: #131200;
+    color: white;
+}
+
+input{
+    width: 100%;
+    text-align: center;
+}
+
+input, button{
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+/* Body */
+body{
+    background-color: #131200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Container */
+div#principal{
+    display: flex;
+    background-color: rgb(12, 72, 236);
+    box-shadow: .5em .5em .5em rgba(3, 19, 63, 0.781);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2em;
+    border-radius: .5em;
+    gap: .5em;
+    box-sizing: border-box;
+}
+
+/* Title */
+div#principal h1{
+    color: white;
+
+}
+
+/* Area button */
+div#principal div#opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 100%;
+}
+
+

@@ -7,14 +7,12 @@
     <meta name="keywords" content="text, transform, simples" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transformador de Texto</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="src/css/estilo.css" />
   </head>
   <body>
-    <main id="principal">
+    <div id="principal">
       <h1>Transformador</h1>
-      <div id="digitar">
-        <input type="text" id="texto">
-      </div>
+      <input type="text" id="texto">
       <div id="opcoes">
         <button onclick="transform('c')">Capitalize</button>
         <button onclick="transform('u')">Uppercase</button>
@@ -22,7 +20,7 @@
         <button onclick="transform('i')">Inverte</button>
         <button onclick="transform('t')">Tittle</button>
       </div>
-    </main>
-    <script src="dinamica.js"></script>
+    </div>
+    <script src="src/dinamica/dinamica.js"></script>
   </body>
 </html>
