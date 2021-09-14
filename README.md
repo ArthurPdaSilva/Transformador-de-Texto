@@ -1,3 +1,3 @@
 # Transformador-de-Texto
- Site simples parara formatação de texto ao gosto do cliente
- criado por Arthur Pereira da Silva
+ Site simples, cuja o único propósito é fazer a transformação de um texto digitado pelo usuário
+ Desenvolvido com HTML/CSS/Javascript
