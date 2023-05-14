@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #131200;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-input{
+input {
     width: 50%;
     padding: 2rem;
     text-align: center;
@@ -40,13 +40,13 @@ input:focus, input:not(:placeholder-shown) {
     width: 100%;
 }
 
-input, button{
+input, button {
     border: none;
     padding: .5em;
     border-radius: .5em;
 }
 
-#principal{
+#principal {
     display: flex;
     background-color: rgb(12, 72, 236);
     box-shadow: 1em 1em 2em rgba(3, 19, 63, 0.781);
@@ -59,11 +59,11 @@ input, button{
     box-sizing: border-box;
 }
 
-#principal h1{
+#principal h1 {
     color: white;
 }
 
-#opcoes{
+#opcoes {
     display: flex;
     flex-direction: column;
     gap: .5em;
