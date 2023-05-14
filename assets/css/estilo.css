@@ -1,28 +1,9 @@
 @charset "UTF-8";
 
-/* All */
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-button{
-    cursor: pointer;
-    font-size: 1.2em;
-    background-color: #131200;
-    color: white;
-}
-
-input{
-    width: 100%;
-    padding: 2rem;
-    text-align: center;
-}
-
-input, button{
-    border: none;
-    padding: .5em;
-    border-radius: .5em;
+    box-sizing: border-box;
 }
 
 body{
@@ -31,6 +12,38 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: #131200;
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+button:hover {
+    background-color: #000000;
+    color: rgb(219, 219, 219);
+    transform: scale(1.1);
+}
+
+input{
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    transition: all ease-in-out .3s;
+}
+
+input:focus, input:not(:placeholder-shown) {
+    width: 100%;
+}
+
+input, button{
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
 }
 
 #principal{
