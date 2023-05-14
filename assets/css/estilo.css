@@ -15,6 +15,7 @@ button{
 
 input{
     width: 100%;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -24,7 +25,6 @@ input, button{
     border-radius: .5em;
 }
 
-/* Body */
 body{
     background-color: #131200;
     display: flex;
@@ -33,28 +33,24 @@ body{
     min-height: 100vh;
 }
 
-/* Container */
-div#principal{
+#principal{
     display: flex;
     background-color: rgb(12, 72, 236);
-    box-shadow: .5em .5em .5em rgba(3, 19, 63, 0.781);
+    box-shadow: 1em 1em 2em rgba(3, 19, 63, 0.781);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.2em;
+    padding: 2em;
     border-radius: .5em;
     gap: .5em;
     box-sizing: border-box;
 }
 
-/* Title */
-div#principal h1{
+#principal h1{
     color: white;
-
 }
 
-/* Area button */
-div#principal div#opcoes{
+#opcoes{
     display: flex;
     flex-direction: column;
     gap: .5em;

@@ -1,4 +1,4 @@
-const formatterText = document.getElementById('texto');
+const formatterText = document.getElementById('text');
 
 function textToCapitalizeText() {
     formatterText.value = formatterText.value.replace(formatterText.value[0], formatterText.value[0].toUpperCase());
